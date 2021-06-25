@@ -1,0 +1,3 @@
+tar: tesseract
+copy: *.patch
+copy: *.tar.gz
