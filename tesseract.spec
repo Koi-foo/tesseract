@@ -5,7 +5,7 @@ Release: alt1
 License: ASL 2.0
 Group: Graphics
 Url: https://github.com/tesseract-ocr
-Packager: Koi <eg.evgeniy at altlinux.org>
+Packager: Evgeny Chuck <koi at altlinux.org>
 
 Source: %name-%version.tar
 Source1: tessdata-fast-ru-en-4.1.0.tar.gz
@@ -147,5 +147,8 @@ tar -xf %SOURCE1 -C %buildroot/%_datadir/%name/tessdata
 %_datadir/%name/tessdata/rus.traineddata
 
 %changelog
+* Mon Jun 28 2021 Evgeny Chuck <koi@altlinux.org> 4.1.1-alt1
+- initial build for ALT Sisyphus
+
 * Mon May 31 2021 Koi <eg.evgeniy at gmail.com> 4.1.1-alt1
 - Initial release for ALT Linux Club
